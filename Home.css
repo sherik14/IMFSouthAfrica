@@ -1,0 +1,119 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background: #1E3A8A; /* Dark Blue */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, 
+nav ul li a.active {
+    background: #FACC15; /* Yellow */
+    color: black;
+}
+
+/* Hero Section (Bigger Image) */
+.hero {
+    height: 600px; /* Increased height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("Capetown.png") no-repeat center center/cover;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* IMF Role Text (Below Image) */
+.imf-role {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E3A8A;
+    margin: 30px auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Introduction Section (Better Placement) */
+.introduction {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.introduction h2 {
+    font-size: 28px;
+    color: #1E3A8A;
+    margin-bottom: 15px;
+}
+
+.introduction p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+/* Footer Section */
+footer {
+    background: #1E3A8A; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #FACC15; /* Yellow */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
